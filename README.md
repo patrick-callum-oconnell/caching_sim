@@ -1,4 +1,7 @@
 # caching_sim
+
+This program was written by PATRICK CALLUM O'CONNELL in December, 2020.
+
 A program that generates a cache and simulates caching operations, written in C.
 
 It reads a trace file and performs basic caching functions, printing out when
