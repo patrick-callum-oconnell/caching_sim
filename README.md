@@ -1,5 +1,5 @@
 # caching_sim
-A program that simulates caching operations, written in C.
+A program that generates a cache and simulates caching operations, written in C.
 
 It reads a trace file and performs basic caching functions, printing out when
 there are hits, misses, and evictions. The cache itself is generated within the main() function,
