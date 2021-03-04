@@ -297,9 +297,10 @@ int main(int argc, char *argv[]) {
 		//frees space for every cache line
 		free(cache[i]);
 	}	
-	free(cache);
+	free(cache); //frees the struct itself once the lines are freed
 
-	printf("Caching process completed. Memory has been freed.\n");
+	printf("Caching process completed. Memory has been freed.\n"); //honestly, this isn't needed it just looks cool in console
+																   //although, these print statements could be usable in debugging maybe
 
     printf("hits:%d misses:%d evictions:%d\n", hits, misses, evictions); //prints a final total of hits, misses, evictions
 
